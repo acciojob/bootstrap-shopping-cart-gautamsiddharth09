@@ -8,97 +8,101 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <!-- Brand -->
-  <a class="navbar-brand" href="#">Accio job</a>
-
-  <!-- Toggler / Hamburger -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar"
-          aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <!-- Collapsible content -->
-  <div class="collapse navbar-collapse" id="mainNavbar">
-    <ul class="navbar-nav mr-auto">
-      
-      <!-- Bootcamps Dropdown -->
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="bootcampsDropdown" role="button"
-           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Bootcamps
-        </a>
-        <div class="dropdown-menu" aria-labelledby="bootcampsDropdown">
-          <a class="dropdown-item" href="#">Popular Bootcamps</a>
-          <a class="dropdown-item" href="#">Bootcamp Developers</a>
-          <a class="dropdown-item" href="#">Bootcamp Financing</a>
-          <a class="dropdown-item" href="#">Bootcamp Grads and Alumni</a>
-        </div>
-      </li>
-
-      <!-- Coding Dropdown -->
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="codingDropdown" role="button"
-           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Coding
-        </a>
-        <div class="dropdown-menu" aria-labelledby="codingDropdown">
-          <a class="dropdown-item" href="#">Coding tools</a>
-          <a class="dropdown-item" href="#">HTML</a>
-          <a class="dropdown-item" href="#">CSS</a>
-          <a class="dropdown-item" href="#">JS</a>
-          <a class="dropdown-item" href="#">PYTHON</a>
-          <a class="dropdown-item" href="#">Ruby</a>
-          <a class="dropdown-item" href="#">C++</a>
-          <a class="dropdown-item" href="#">Java</a>
-        </div>
-      </li>
-
-      <!-- Career Resources Dropdown -->
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="careerDropdown" role="button"
-           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Career Resources
-        </a>
-        <div class="dropdown-menu" aria-labelledby="careerDropdown">
-          <a class="dropdown-item" href="#">Career Advice</a>
-          <a class="dropdown-item" href="#">Interviews</a>
-          <a class="dropdown-item" href="#">Tech Cities</a>
-          <a class="dropdown-item" href="#">Tech Salaries</a>
-        </div>
-      </li>
-
-      <!-- Tech Fields Dropdown -->
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="techDropdown" role="button"
-           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Tech Fields
-        </a>
-        <div class="dropdown-menu" aria-labelledby="techDropdown">
-          <a class="dropdown-item" href="#">Web Design</a>
-          <a class="dropdown-item" href="#">Web Development</a>
-          <a class="dropdown-item" href="#">Software Engineering</a>
-          <a class="dropdown-item" href="#">Data Science</a>
-        </div>
-      </li>
-
-      <!-- News & Commentary (non-dropdown link) -->
-      <li class="nav-item">
-        <a class="nav-link" href="#">News &amp; Commentary</a>
-      </li>
-    </ul>
-
-    <!-- Search form -->
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+	
+<div class="container my-5">
+  <!-- Block Heading -->
+  <div class="block-heading">
+    <h2>Your Shopping Cart</h2>
   </div>
-</nav>
 
-<!-- Bootstrap 4.3.1 JS, Popper.js, and jQuery -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <div class="row">
+    <!-- LEFT COLUMN: Product List -->
+    <div class="col-lg-8">
+      
+      <!-- Product Block 1 -->
+      <div class="product">
+        <div class="row align-items-center">
+          <div class="col-md-3">
+            <img src="https://via.placeholder.com/150" class="img-fluid" alt="Product 1">
+          </div>
+          <div class="col-md-5">
+            <h5>Product Name 1</h5>
+            <p class="text-muted mb-0">Short description of product 1.</p>
+          </div>
+          <div class="col-md-2 text-center">
+            <span class="fw-bold">$25.00</span>
+          </div>
+          <div class="col-md-2 text-center">
+            <input type="number" value="1" class="form-control text-center">
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Block 2 -->
+      <div class="product">
+        <div class="row align-items-center">
+          <div class="col-md-3">
+            <img src="https://via.placeholder.com/150" class="img-fluid" alt="Product 2">
+          </div>
+          <div class="col-md-5">
+            <h5>Product Name 2</h5>
+            <p class="text-muted mb-0">Short description of product 2.</p>
+          </div>
+          <div class="col-md-2 text-center">
+            <span class="fw-bold">$40.00</span>
+          </div>
+          <div class="col-md-2 text-center">
+            <input type="number" value="2" class="form-control text-center">
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Block 3 -->
+      <div class="product">
+        <div class="row align-items-center">
+          <div class="col-md-3">
+            <img src="https://via.placeholder.com/150" class="img-fluid" alt="Product 3">
+          </div>
+          <div class="col-md-5">
+            <h5>Product Name 3</h5>
+            <p class="text-muted mb-0">Short description of product 3.</p>
+          </div>
+          <div class="col-md-2 text-center">
+            <span class="fw-bold">$30.00</span>
+          </div>
+          <div class="col-md-2 text-center">
+            <input type="number" value="1" class="form-control text-center">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT COLUMN: Summary -->
+    <div class="col-lg-4">
+      <div class="summary">
+        <h4>Summary</h4>
+        <div class="d-flex justify-content-between mb-2">
+          <span>Subtotal</span>
+          <span>$95.00</span>
+        </div>
+        <div class="d-flex justify-content-between mb-2">
+          <span>Shipping</span>
+          <span>$5.00</span>
+        </div>
+        <hr>
+        <div class="d-flex justify-content-between fw-bold mb-3">
+          <span>Total</span>
+          <span>$100.00</span>
+        </div>
+        <button class="btn btn-lg">Checkout</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+	
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
